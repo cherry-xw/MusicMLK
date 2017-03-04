@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_wave_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backw1"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+            xmlns:sliding="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/showmusicmessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            sliding:behindOffset="0dp"
+            sliding:behindScrollScale="1"
+            sliding:fadeDegree="0.3"
+            sliding:fadeEnabled="true"
+            sliding:touchModeAbove="fullscreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ACG BOX</string>
+    <string name="action_settings">设置</string>
+    <string name="action_settings_success">设置成功</string>
+    <string name="action_settings_failes">设置失败</string>
+    <string name="open_lr_music">打开该功能会关闭当前播放的音乐</string>
+    <string name="please_insert_headset">请先插入耳机即可享受该功能</string>
+    
+    <string name="show_waveform">显示波形图</string>
+    <string name="hide_waveform">隐藏波形图</string>
+    
+    <string name="show_qt_photo">相册将在下次启动软件时显示</string>
+    <string name="like_is_playing">您取消喜欢的音乐正在播放，请暂停播放后操作</string>
+    
+    <string name="add_like_music">添加喜欢成功</string>
+    <string name="delete_like_music">取消喜欢成功</string>
+    <string name="close_app">"再次点击就要退出了 ( •̥́ ˍ •̀ू )嘤嘤嘤 ~"</string>
+    <string name="music_list">"音乐列表"</string>
+    <string name="myoperate">"左滑查看"</string>
+    
+    <string name="list_num">序号</string>
+    <string name="list_default">默认列表</string>
+    <string name="list_one">我喜欢的音乐</string>
+    <string name="list_two">下载的音乐</string>
+    <string name="list_content">歌曲信息</string>
+    <string name="prompt">提示</string>
+    <string name="yes">确认</string>
+    <string name="no">取消</string>
+    <string name="on_simulation_sound">特效已打开</string>
+    <string name="off_simulation_sound">特效已关闭</string>
+    <string name="add_all_music">添加所有音乐</string>
+    
+    <string name="application_no_music">当前手机中没有音乐文件</string>
+    
+    <string name="add_success">添加成功</string>
+    <string name="delete_success">删除成功 \(^o^)/</string>
+    <string name="delete_failed">删除失败(＞﹏＜)</string>
+    <string name="notify_musiclist">列表刷新失败</string>
+    <string name="delete_all_music_success">清除成功</string>
+    
+    <string name="clear_list">确认清空列表数据？</string>
+    <string name="clear_list_ps">ps：删除时仅清空列表中音乐o(-_-)o，不删除本地音乐文件</string>
+    
+    <string name="del_or_not">确认删除  %1$s？</string>
+    <string name="del_ps">ps：删除时仅删除列表中音乐o(-_-)o，不删除本地音乐文件</string>
+    
+    <string name="mmd">藏这么深都给你发现了~→_→</string>
+    
+    <string name="no_music">音乐列表为空，请先添加音乐~</string>
+    <string name="new_fun">插入耳机开启精分模式</string>
+    <string name="longclickcansee">长按图片可显示预览</string>
+    
+    <string name="about">关于</string>
+    <string name="about_msg">本软件\n\n由<u>  无良小万  </u>君\n(为了突出重点加了下划线)\n\n独立完成的喵~
+       \n\n颤抖吧人类喵~\n\n后续的功能将暂停开发喵~\n\n有想法可以联系QQ：<u> 1454963281 </u>\n(傻瓜这当然是小号↑↑↑啦！)
+       \n\n虽然有下划线，但这是点不了的哦(•ิ_•ิ)\n\n本软件仅供开发者及其好友使用哦\n（不用做其他任何用途）\n\n如果发现用作其他用途\n走你！(╯°Д°）╯︵ /(.□ . \)\n知道厉害了吧
+       \n\n群众：(ﾉ)ﾟДﾟ(ヽ) \n\n知道就不要乱传播哦，其他法律责任概不负责哦！\n写这么多其实就是为了这个啦（*/∇＼*）\n\n</string>
+    <string name="about_verson">2015年7月26日 \n\n版本：1.0.0</string>
+
+</resources>

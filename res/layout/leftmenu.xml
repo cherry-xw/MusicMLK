@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_floralwhite"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/leftmusicback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/backtomain" />
+
+        <Spinner
+            android:id="@+id/selectpaintcolor"
+            android:layout_width="match_parent"
+            android:spinnerMode="dropdown"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tesaxtss"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/half_darkgray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom|right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/leftmusicname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="N/A"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tesdsaxtss"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/half_darkgray" />
+
+        <TextView
+            android:id="@+id/leftmusicauthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="N/A"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tesdaxtss"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/half_darkgray" />
+
+        <TextView
+            android:id="@+id/leftmusicartist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="N/A"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tesaxftss"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/half_darkgray" />
+
+        <TextView
+            android:id="@+id/leftmusiccurrenttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="N/A"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tess"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/half_darkgray" />
+
+        <TextView
+            android:id="@+id/leftmusictime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="N/A"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tesaxtxss"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/half_darkgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/rightbeforebtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/btn_lastone" />
+
+            <ImageView
+                android:id="@+id/rightnextbtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/btn_nextone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

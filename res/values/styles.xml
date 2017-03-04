@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- 设置musiclist_dialog弹出，退出动画 -->
+    <style name="dialogMusicList" parent="android:Animation" mce_bogus="1">  
+        <item name="android:windowEnterAnimation">@anim/anim_showlistdialog</item>  
+        <item name="android:windowExitAnimation">@anim/anim_closelistdialog</item>  
+    </style>
+        <!-- 设置select_Wave_Type_Dialog弹出，退出动画 -->
+    <style name="dialogSelectWaveType" parent="android:Animation" mce_bogus="1">  
+        <item name="android:windowEnterAnimation">@anim/anim_showselectdialog</item>  
+        <item name="android:windowExitAnimation">@anim/anim_closeselectdialog</item>  
+    </style>
+    
+    <!-- 设置prompt_dialog弹出，退出动画 -->
+    <style name="dialogPrompt" parent="android:Animation" mce_bogus="1">  
+        <item name="android:windowEnterAnimation">@anim/anim_showpromptdialog</item>  
+        <item name="android:windowExitAnimation">@anim/anim_closepromptdialog</item>  
+    </style>
+    <!-- 设置musicmsg_dialog弹出，退出动画 -->
+    <style name="dialogMusicMsg" parent="android:Animation" mce_bogus="1">  
+        <item name="android:windowEnterAnimation">@anim/anim_showlinechartdialog</item>  
+        <item name="android:windowExitAnimation">@anim/anim_closelinechartdialog</item>  
+    </style>
+ 	<!-- 设置seekbar样式 -->
+   <style name="Widget.SeekBar.Normal" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">4.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/seekbar_style</item>
+        <item name="android:minHeight">4.0dip</item>
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="android:thumbOffset">10.0dip</item>
+    </style>
+
+</resources>
