@@ -80,7 +80,6 @@ public class SetUpDialog extends DialogFragment
     	setwaveback = (LinearLayout) view.findViewById(R.id.setwaveback);
     	setwavetype = (LinearLayout) view.findViewById(R.id.setwavetype);
     	setscreenbright = (CheckBox) view.findViewById(R.id.setscreenbright);
-    			
     	
     	setback.setOnClickListener(new OnClickListener() {
 			
@@ -93,6 +92,7 @@ public class SetUpDialog extends DialogFragment
 				myMainImageIds.add(R.drawable.back2);
 				myMainImageIds.add(R.drawable.back3);
 				new ShowImgListDialog(myMainImageIds,"main").show(getFragmentManager(), null);
+				new PromptInfoDialog("长按可设置背景图", "").show(getFragmentManager(), null);
 			}
 		});
     	setwaveback.setOnClickListener(new OnClickListener() {
@@ -116,7 +116,7 @@ public class SetUpDialog extends DialogFragment
 			public void onClick(View v) {
 		        int[] location = new int[2];
 		        v.getLocationOnScreen(location);
-				new SelectWaveTypeDialog(location[0]-CommonData.ScreenWidth/8*5, 
+				new SelectWaveTypeDialog(location[0]-CommonData.ScreenWidth/8*5,
 						location[1]-CommonData.ScreenHeight/4-setwavetype.getHeight()/2).show(getFragmentManager(), null);
 		        Toast.makeText(view.getContext(), R.string.longclickcansee, Toast.LENGTH_SHORT).show();
 			}

@@ -381,8 +381,6 @@ public class MainService extends Service implements MediaPlayer.OnCompletionList
 		}
 	}
 	
-	
-	
 	/*
 	 * 下一首 
 	 *  aa 表示是否为手动切换

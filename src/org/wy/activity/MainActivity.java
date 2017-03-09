@@ -167,7 +167,7 @@ public class MainActivity extends Activity {
 		}
 	}
 	
-	//从后台打开到前台
+	//从停止到恢复
 	@Override
 	protected void onResume() {
 		super.onResume();
