@@ -113,7 +113,7 @@ public class ShowWaveFormActivity extends Activity {
 			public void onItemSelected(AdapterView<?> parent, View view,
 					int position, long id) {
 				selectedcolor = myallcolors[position];
-				Log.e("sss", "sss="+selectedcolor);
+//				Log.e("sss", "sss="+selectedcolor);
 			}
 
 			@Override
